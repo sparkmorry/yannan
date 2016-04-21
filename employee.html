@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -43,13 +42,13 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active first-nav">
-              <a href="#"><span class="glyphicon glyphicon-user"></span>公司管理</a>
-              <ul class="second-nav">
-                <li><a href="">组织机构</a></li>
-                <li><a href="">部门管理</a></li>
-                <li><a href="">岗位管理</a></li>
-                <li><a href="">员工信息</a></li>
+            <li class="active first-nav j-first-nav-wrapper">
+              <a href="javascript:void(0);" class="j-first-nav"><span class="glyphicon glyphicon-user"></span>公司管理</a>
+              <ul class="second-nav j-second-nav">
+                <li><a href="org.html">组织机构</a></li>
+                <li><a href="department.html">部门管理</a></li>
+                <li><a href="position.html">岗位管理</a></li>
+                <li class="active"><a href="employee.html">员工信息</a></li>
                 <li><a href="">人员履历</a></li>
                 <li><a href="">日志管理</a></li>
               </ul>
@@ -62,7 +61,7 @@
                 <li><a href="">组织机构</a></li>
                 <li><a href="">部门管理</a></li>
                 <li><a href="">岗位管理</a></li>
-                <li><a href="">员工信息</a></li>
+                <li class="active"><a href="">员工信息</a></li>
                 <li><a href="">人员履历</a></li>
                 <li><a href="">日志管理</a></li>
               </ul>
@@ -75,7 +74,7 @@
                 <li><a href="">组织机构</a></li>
                 <li><a href="">部门管理</a></li>
                 <li><a href="">岗位管理</a></li>
-                <li><a href="">员工信息</a></li>
+                <li class="active"><a href="">员工信息</a></li>
                 <li><a href="">人员履历</a></li>
                 <li><a href="">日志管理</a></li>
               </ul>
@@ -96,10 +95,10 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h2 class="sub-header">用户信息</h2>
+          <h2 class="sub-header">员工信息</h2>
           <div class="row search-banner">
-            <div class="col-md-3">姓名：<input id="name" name="name" class="searchText" type="text" value=""></div>
-            <div class="col-md-3">手机号：<input id="iphone" name="iphone" class="searchText" type="text" value=""></div>
+            <div class="col-md-3">姓名：<input id="name" name="name" class="text-input" type="text" value=""></div>
+            <div class="col-md-3">手机号：<input id="iphone" name="iphone" class="text-input" type="text" value=""></div>
             <div class="col-md-2">是否在职：
               <select id="isnotIncumbency" name="isnotIncumbency" class="selectText" check-type="required" required-message="在职状态不能为空">
                 <option value="">--全部--</option>
@@ -374,5 +373,7 @@
     ================================================== -->
     <script src="js/lib/jquery.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/util/general.js"></script>
+    <script type="text/javascript" src="js/page/employee.js"></script>
   </body>
 </html>

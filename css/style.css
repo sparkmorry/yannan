@@ -6,7 +6,7 @@
 body {
   padding-top: 50px;
 }
-input{
+input.text-input{
     height: 26px;
     line-height: 26px;
     padding: 5px;
@@ -97,14 +97,39 @@ input{
   color: #fff;
   background-color: #428bca;
 }
-.nav .first-nav:hover .second-nav{
+.second-nav{
+   list-style: none;
+}
+/*.nav .first-nav:hover .second-nav{
   display: block;
   list-style: none;
+}
+*/
+.second-nav a{
+  color: #999;
+}
+.second-nav .active a{
+  color: #428bca;
+  font-weight: 700;
 }
 .nav .second-nav{
   display: none;
 }
+.nav .active .second-nav{
+  display: block;
+}
 
+.nav .second-nav li a{
+  padding: 5px;
+  margin-bottom: 1px;
+  display: inline-block;
+}
+
+/*.nav .second-nav li:hover a{
+  background: #428bca;
+  color: white;
+  text-decoration: none;
+}*/
 /*
  * Main content
  */
