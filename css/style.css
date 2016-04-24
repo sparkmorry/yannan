@@ -3,9 +3,10 @@
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
+/*body {
   padding-top: 50px;
 }
+*/
 input.text-input{
     height: 26px;
     line-height: 26px;
@@ -135,7 +136,7 @@ input.text-input{
  */
 
 .main {
-  padding-top: 35px;
+  padding-top: 85px;
 }
 @media (min-width: 768px) {
   .main {
