@@ -86,3 +86,21 @@ input.text-input{
   margin-right: 8px;
 
 }
+
+.table-striped{
+  border-bottom: 1px solid #ddd;
+}
+.btn-yn{
+  opacity: 0.8;
+  padding: 5px 35px;
+}
+.btn-yn.btn-blue{
+  background: #2ca6e0;
+  color: white;  
+}
+.btn-yn:hover{
+  opacity: 1;
+}
+.row.btn-wrapper{
+  padding: 10px 14px;
+}
