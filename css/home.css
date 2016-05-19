@@ -9,9 +9,55 @@
 	background: #1a1a1a;
 	text-align: center;
 }
+/*动画*/
 .top{
-	margin-top: 58px;
+	margin-top: 50px;
 }
+.top .canvas{
+	width: 80%;
+	margin: 30px auto;
+	position: relative;
+}
+.top .canvas img.bg{
+	width: 100%;
+	margin-top: 0;
+}
+.top .canvas .elem{
+	position: absolute;
+	display: none;
+}
+.top .canvas .bird{
+	width: 6%;
+    left: 50%;
+    margin-left: -58%;
+    top: 40%;
+}
+.top .canvas .pc{
+	width: 36%;
+	left: 50%;
+	margin-left: -18%;
+	bottom: 3%;
+}
+.top .canvas .mobile{
+	width: 10%;
+	bottom: 3%;
+	left: 50%;
+	margin-left: 15%;
+}
+.top .canvas .d500{
+	width: 25%;
+	left: 50%;
+	bottom: 3%;
+	margin-left: -35%;
+}
+.top .canvas .text{
+	width: 50%;
+    left: 50%;
+    top: 10%;
+    margin-left: -16%;
+}
+
+/*底部*/
 .bottom img{
 	width: 80%;
 }
