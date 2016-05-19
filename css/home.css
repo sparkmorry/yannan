@@ -3,6 +3,10 @@
 	margin: 30px auto;
 	display: block;
 }
+.login img{
+	width: 50%;
+	margin-top: 80px;
+}
 .bottom{
 	width: 100%;
 	padding-left: 10px;
