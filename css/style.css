@@ -121,3 +121,21 @@ input.text-input{
   margin-right: 0px;
   margin-left: 0px;
 }
+
+.search-banner .col-md-1, 
+.search-banner .col-md-2, 
+.search-banner .col-md-3, 
+.search-banner .col-md-4, 
+.search-banner .col-md-5, 
+.search-banner .col-md-6, 
+.search-banner .col-md-7, 
+.search-banner .col-md-8, 
+.search-banner .col-md-9, 
+.search-banner .col-md-10, 
+.search-banner .col-md-11, 
+.search-banner .col-md-12{
+  width: auto;
+}
+.search-banner select{
+  max-width: 130px;
+}
