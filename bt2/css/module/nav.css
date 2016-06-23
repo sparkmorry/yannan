@@ -7,47 +7,43 @@
 }
 .nav-beta{
   color: #888;
+  font-size: 14px;
 }
-.navbar-nav{
-  padding-top: 18px;
-}
-.navbar-fixed-top {
-  border: 0;
-}
-.navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    top: 0;
-}
-.navbar{
-  border-bottom: solid 2px #25aad8;
-  /*box-shadow: 0px 1px 10px #E2E2E2;*/
-  background-color: white;
+.navbar-fixed-top{
   height: 85px;
 }
-
-/*侧边栏*/
-/* Hide for mobile, show later */
-.sidebar {
-  display: none;
+.navbar-fixed-top .navbar-inner {
+  border: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 0;
+  border-bottom: solid 2px #25aad8;
+  background-color: white;
+  height: 85px;
+  box-shadow: 0 0 0;
 }
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 85px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding: 20px;
-    padding-top: 0;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
-  }
+.navbar .nav{
+  position: absolute;
+  right: 20px;
+  left: auto;
+  top: 20px;
+}
+/*侧边栏*/
+.sidebar {
+  position: fixed;
+  top: 85px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  padding-top: 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
 }
 
 /* Sidebar navigation */
@@ -58,6 +54,9 @@
 
 }
 .nav-sidebar > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
   padding-right: 20px;
 }
 .nav-sidebar > .active > a,
@@ -88,14 +87,14 @@
 /*二级菜单*/
 .second-nav{
 	list-style: none;
-    padding-left: 0;
+  padding-left: 0;
 }
 .second-nav li{
 	background: #dae7ed;
 	color: #717071;
-  	padding-left: 100px;
-  	border-bottom: 1px solid #c8c9ca;
-  	line-height: 28px;	
+	padding-left: 100px;
+	border-bottom: 1px solid #c8c9ca;
+	line-height: 28px;	
 }
 .second-nav a{
   color: #999;
@@ -106,6 +105,7 @@
 }
 .nav .second-nav{
   display: none;
+  margin-left: 0;
 }
 .nav .active .second-nav{
   display: block;

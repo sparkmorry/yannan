@@ -11,7 +11,7 @@
 
     <title>云考勤管理系统</title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap2/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css?v=1.0" rel="stylesheet">
   </head>
@@ -19,26 +19,26 @@
   <body>
     <h2 class="sub-header">员工信息</h2>
     <div class="search-banner row">
-      <div class="col-md-3">姓名：<input id="name" name="name" class="text-input" type="text" value=""></div>
-      <div class="col-md-3">手机号：<input id="iphone" name="iphone" class="text-input" type="text" value=""></div>
-      <div class="col-md-2">是否在职：
+      <div class="span3">姓名：<input id="name" name="name" class="text-input span2" type="text" value=""></div>
+      <div class="span3">手机号：<input id="iphone" name="iphone" class="text-input span2" type="text" value=""></div>
+      <div class="span2">是否在职：
         <select id="isnotIncumbency" name="isnotIncumbency" class="selectText" check-type="required" required-message="在职状态不能为空">
           <option value="">--全部--</option>
           <option value="1">在职</option>
           <option value="2">离职</option>
         </select>
       </div>
-      <div class="col-md-2">是否采集：
+      <div class="span2">是否采集：
         <select id="venaId" name="venaId" class="selectText" check-type="required" required-message="在职状态不能为空">
           <option value="">--全部--</option>
           <option value="is not null">采集</option>
           <option value="is null">未采集</option>
         </select>
       </div>
-      <div class="col-md-1">
-        <div class="btn btn-search"><span class="glyphicon glyphicon-search"></span></div>
+      <div class="span1">
+        <div class="btn btn-search"><span class="icon-search icon-white"></span></div>
       </div>
-      <div class="col-md-1">
+      <div class="span1">
         <div class="btn btn-search">重置</div>
       </div>
     </div>
@@ -281,7 +281,7 @@
           <a href="">下一页</a>
           <a href="">尾页</a>
           <span>快速翻页
-            <select>
+            <select  class="span2">
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -293,15 +293,8 @@
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!--[if lte IE 9]>
-    <script src="js/lib/respond.js"></script>
-    <script src="js/lib/html5shiv.min.js"></script>
-    <![endif]-->
     <script src="js/lib/jquery.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/util/general.js"></script>
-    <script type="text/javascript" src="js/page/employee.js"></script>
   </body>
 </html>    

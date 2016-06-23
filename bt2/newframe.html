@@ -17,16 +17,14 @@
   </head>
 
   <body>
-
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/header_left.png"></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <span class="nav-beta">燕南考勤管理系统 BETA_1.4.7</span>
-
-          <ul class="nav navbar-nav navbar-right">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <div  class="navbar-brand brand">
+            <a href="#"><img src="images/header_left.png"></a>
+            <span class="nav-beta">燕南考勤管理系统 BETA_1.4.7</span> 
+          </div>         
+          <ul class="nav">
             <li><a href="#" class="tc-red">当前用户：[企业管理员]燕南国创科技（北京）有限公司</a></li>
             <li><a href="#">修改密码</a></li>
             <li><a href="#">退出系统</a></li>
@@ -36,8 +34,8 @@
     </div>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+      <div class="row-fluid">
+        <div class="span3 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active first-nav j-first-nav-wrapper">
               <a href="javascript:void(0);" class="j-first-nav"><span class="glyphicon glyphicon-user"></span>公司管理</a>
@@ -91,8 +89,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <iframe src="iframe.html"></iframe>
+        <div class="span9 main">
+          <iframe  frameBorder="0" src="iframe.html"></iframe>
         </div>
       </div>
     </div>
@@ -100,6 +98,5 @@
     <script src="js/lib/jquery.min.js"></script>
     <script src="bootstrap2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/util/general.js"></script>
-    <script type="text/javascript" src="js/page/employee.js"></script>
   </body>
 </html>
