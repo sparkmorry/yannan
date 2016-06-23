@@ -1,0 +1,141 @@
+/*总体样式*/
+/*导入模块*/
+@import url("./module/nav.css");
+input.text-input{
+    height: 26px;
+    line-height: 26px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+
+/*colors*/
+.tc-red{
+  color: #E45175;
+}
+.tc-green{
+  color: #25c8b8;
+}
+
+/*
+ * Global add-ons
+ */
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #189fe5;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding-top: 85px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+.sub-header .header-text{
+  border-left: solid 8px;
+  padding-left: 10px;
+}
+.main iframe{
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*search banner*/
+.btn.btn-search{
+  padding: 2px 12px;
+  background: #189fe5;
+  color: white;
+}
+.search-banner{
+  line-height: 30px;
+}
+.page-banner{
+  /*background-color: #189fe5;*/
+  margin-bottom: 20px;
+}
+.page-nav{
+  text-align: right;
+}
+.page-nav a{
+  margin-right: 8px;
+
+}
+
+.table-striped{
+  border-bottom: 1px solid #ddd;
+}
+.btn-yn{
+  opacity: 0.8;
+  padding: 5px 35px;
+}
+.btn-yn.btn-blue{
+  background: #2ca6e0;
+  color: white;  
+}
+.btn-yn:hover{
+  opacity: 1;
+}
+.row.btn-wrapper{
+  padding: 10px 14px;
+}
+
+.row.search-banner, 
+.row.btn-wrapper,
+.row.page-banner{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.search-banner .col-md-1, 
+.search-banner .col-md-2, 
+.search-banner .col-md-3, 
+.search-banner .col-md-4, 
+.search-banner .col-md-5, 
+.search-banner .col-md-6, 
+.search-banner .col-md-7, 
+.search-banner .col-md-8, 
+.search-banner .col-md-9, 
+.search-banner .col-md-10, 
+.search-banner .col-md-11, 
+.search-banner .col-md-12{
+  width: auto;
+}
+.search-banner select{
+  max-width: 130px;
+}
