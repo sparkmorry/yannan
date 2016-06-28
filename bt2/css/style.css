@@ -2,11 +2,12 @@
 /*导入模块*/
 @import url("./module/nav.css");
 input.text-input{
-  height: 26px;
-  line-height: 26px;
+  height: 22px;
+  line-height: 22px;
   padding: 5px;
   border: 1px solid #eaeaea;
   border-radius: 3px;
+  width: 100px;
 }
 
 /*colors*/
@@ -35,14 +36,15 @@ input.text-input{
   position: absolute;
   top: 30px;
   bottom: 0;
-  right: 0;
+  right: 10px;
+  left: 280px;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .main {
     padding-right: 40px;
     padding-left: 40px;
   }
-}
+}*/
 .main .page-header {
   margin-top: 0;
 }
@@ -138,5 +140,5 @@ input.text-input{
   width: auto;
 }
 .search-banner select{
-  max-width: 130px;
+  max-width: 120px;
 }
